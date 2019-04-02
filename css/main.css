@@ -1,0 +1,90 @@
+@charset "UTF-8";
+/* Header */
+header p {
+    text-transform: uppercase;
+    position: absolute;
+    top: 20px;
+}
+header h1{
+    text-transform: lowercase;
+    color: black;
+    font-size: 80px;
+    line-height: 65px;
+    border-top: 1px solid black;
+    width: 100%;
+    margin-bottom: 150px;
+}
+header h1 em{
+    font-style: normal;
+    color: #c7262b;
+
+}
+.Dog{
+    top: 0;
+    margin-right:0;
+    width: 320px;
+    height: 214px;
+    float: right;
+    padding-right: 30px;
+}
+main{
+    display: flex;
+    flex-direction: row;
+}
+#container1{
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    order: 2;
+}
+#container2{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid black;
+    order: 1;
+}
+.tubing{
+    height: 450px;
+    width: 450px;
+    display: block;
+    padding-left: 30px;
+    margin-right: auto;
+    width: 50%;
+}
+#container{
+    border: 1px solid black;
+}
+article{
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 200%;
+}
+aside{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.DogDay{
+    color: #c7262b;
+    font-size: 35px;
+}
+.OnSlopes{
+    font-size: 40px;
+    font-style: none;
+}
+.aside1{
+line-height: 250%;
+}
+aside h2{
+    color: #c7262b;
+    font-size: 130%;
+}
+#Carolling{
+    background-color: lightgrey;
+    opacity: 25%;
+    height: 900px;
+}
+aside h2 em{
+    font-size: 300%;
+    color: black;
+}
